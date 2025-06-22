@@ -14,7 +14,7 @@ TOKEN = '8066286253:AAEcsbSTjqUXmMq14tGyknh85m6oiwf6_lo'
 
 # Замените 'ВАША_ССЫЛКА_НА_ГРУППУ' на реальную ссылку на вашу Telegram-группу.
 # Это может быть "t.me/имя_вашей_группы" или ссылка-приглашение.
-TELEGRAM_GROUP_LINK = 'https://t.me/+KmXKuPzRICk0ODEy' # <<< ОБЯЗАТЕЛЬНО ИЗМЕНИТЕ ЭТО
+TELEGRAM_GROUP_LINK = 'https://t.me/+gyJA7h-R8XgzZjBi' # <<< ОБЯЗАТЕЛЬНО ИЗМЕНИТЕ ЭТО
 
 dp = Dispatcher()
 
