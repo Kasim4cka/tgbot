@@ -10,7 +10,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 # Замените этот токен на ваш реальный токен бота из BotFather
-TOKEN = '7782581480:AAHUs8Eb5IQ-_BDXFOvhtcZ89UGDkEkyJnE'
+TOKEN = '8066286253:AAEcsbSTjqUXmMq14tGyknh85m6oiwf6_lo'
 
 # Замените 'ВАША_ССЫЛКА_НА_ГРУППУ' на реальную ссылку на вашу Telegram-группу.
 # Это может быть "t.me/имя_вашей_группы" или ссылка-приглашение.
