@@ -10,7 +10,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 # Замените этот токен на ваш реальный токен бота из BotFather
-TOKEN = '8066286253:AAEcsbSTjqUXmMq14tGyknh85m6oiwf6_lo'
+TOKEN = '7497800765:AAFTa7mXHkfmVwxS2_wUoWcfLKkdV3sJpaE'
 
 # --- ССЫЛКИ ДЛЯ ВАРИАНТА "Перейти в группу" (по умолчанию) ---
 # Эта ссылка используется для самой первой кнопки "Перейти в группу (Основная)"
@@ -72,7 +72,7 @@ async def process_option_1_links(callback_query: CallbackQuery):
     # Отправляем сообщение со ссылкой на группу и кнопкой (Вариант 1)
     # Убрана прямая ссылка из текста
     await callback_query.message.answer(
-        f"Короткая версия RDS GP :",
+        f"Короткие версии RDS GP :",
         reply_markup=group_keyboard
     )
 
@@ -83,7 +83,7 @@ async def process_option_1_links(callback_query: CallbackQuery):
     # Отправляем ОТДЕЛЬНЫМ сообщением ссылку на документ с кнопкой (Вариант 1)
     # Убрана прямая ссылка из текста
     await callback_query.message.answer(
-        f"Короткая версия RDS GP:",
+        f"Короткие версии RDS GP:",
         reply_markup=document_keyboard
     )
 
@@ -100,7 +100,7 @@ async def process_option_2_links(callback_query: CallbackQuery):
     # Отправляем сообщение со ссылкой на группу и кнопкой (Вариант 2)
     # Убрана прямая ссылка из текста
     await callback_query.message.answer(
-        f"Короткая версия RDS OPEN:",
+        f"Короткие версии RDS OPEN:",
         reply_markup=group_keyboard
     )
 
@@ -111,7 +111,7 @@ async def process_option_2_links(callback_query: CallbackQuery):
     # Отправляем ОТДЕЛЬНЫМ сообщением ссылку на документ с кнопкой (Вариант 2)
     # Убрана прямая ссылка из текста
     await callback_query.message.answer(
-        f"Короткая версия RDS OPEN:",
+        f"Короткие версии RDS OPEN:",
         reply_markup=document_keyboard
     )
 
