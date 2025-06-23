@@ -10,7 +10,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 # Замените этот токен на ваш реальный токен бота из BotFather
-TOKEN = '7497800765:AAFTa7mXHkfmVwxS2_wUoWcfLKkdV3sJpaE'
+TOKEN = '8066286253:AAEcsbSTjqUXmMq14tGyknh85m6oiwf6_lo'
 
 # --- ССЫЛКИ ДЛЯ ВАРИАНТА "Перейти в группу" (по умолчанию) ---
 # Эта ссылка используется для самой первой кнопки "Перейти в группу (Основная)"
