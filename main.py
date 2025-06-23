@@ -10,7 +10,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 # Замените этот токен на ваш реальный токен бота из BotFather
-TOKEN = '8066286253:AAEcsbSTjqUXmMq14tGyknh85m6oiwf6_lo'
+TOKEN = '7497800765:AAFTa7mXHkfmVwxS2_wUoWcfLKkdV3sJpaE'
 
 # --- ССЫЛКИ ДЛЯ ВАРИАНТА "Перейти в группу" (по умолчанию) ---
 # Эта ссылка используется для самой первой кнопки "Перейти в группу (Основная)"
@@ -33,7 +33,7 @@ BUTTON_TEXT_DIRECT_LINK = "Основное сообщество"
 BUTTON_TEXT_SEND_LINK_1 = "RDS GP"
 BUTTON_TEXT_SEND_LINK_2 = "RDS OPEN"
 BUTTON_TEXT_GO_TO_GROUP = "Смотреть в TG" # Текст для кнопки внутри сообщения со ссылкой на группу
-BUTTON_TEXT_GO_TO_DOCUMENT = "Cмотреть Ydisk" # Текст для кнопки со ссылкой на документ
+BUTTON_TEXT_GO_TO_DOCUMENT = "Смотреть Ydisk" # Текст для кнопки со ссылкой на документ
 # --- Конец конфигурации кнопок ---
 
 dp = Dispatcher()
@@ -70,9 +70,9 @@ async def process_option_1_links(callback_query: CallbackQuery):
     group_keyboard = InlineKeyboardMarkup(inline_keyboard=[[group_button]])
 
     # Отправляем сообщение со ссылкой на группу и кнопкой (Вариант 1)
+    # Убрана прямая ссылка из текста
     await callback_query.message.answer(
-        f"RDS GP: {TELEGRAM_GROUP_LINK_OPTION1}\n\n"
-        "Нажмите кнопку, чтобы перейти:",
+        f"Короткая версия RDS GP :",
         reply_markup=group_keyboard
     )
 
@@ -81,9 +81,9 @@ async def process_option_1_links(callback_query: CallbackQuery):
     document_keyboard = InlineKeyboardMarkup(inline_keyboard=[[document_button]])
 
     # Отправляем ОТДЕЛЬНЫМ сообщением ссылку на документ с кнопкой (Вариант 1)
+    # Убрана прямая ссылка из текста
     await callback_query.message.answer(
-        f"Ydisk: {DOCUMENT_LINK_OPTION1}\n\n"
-        "Нажмите кнопку, чтобы открыть его:",
+        f"Короткая версия RDS GP:",
         reply_markup=document_keyboard
     )
 
@@ -98,9 +98,9 @@ async def process_option_2_links(callback_query: CallbackQuery):
     group_keyboard = InlineKeyboardMarkup(inline_keyboard=[[group_button]])
 
     # Отправляем сообщение со ссылкой на группу и кнопкой (Вариант 2)
+    # Убрана прямая ссылка из текста
     await callback_query.message.answer(
-        f"RDS OPEN: {TELEGRAM_GROUP_LINK_OPTION2}\n\n"
-        "Нажмите кнопку, чтобы перейти:",
+        f"Короткая версия RDS OPEN:",
         reply_markup=group_keyboard
     )
 
@@ -109,9 +109,9 @@ async def process_option_2_links(callback_query: CallbackQuery):
     document_keyboard = InlineKeyboardMarkup(inline_keyboard=[[document_button]])
 
     # Отправляем ОТДЕЛЬНЫМ сообщением ссылку на документ с кнопкой (Вариант 2)
+    # Убрана прямая ссылка из текста
     await callback_query.message.answer(
-        f"Ydisk: {DOCUMENT_LINK_OPTION2}\n\n"
-        "Нажмите кнопку, чтобы открыть его:",
+        f"Короткая версия RDS OPEN:",
         reply_markup=document_keyboard
     )
 
