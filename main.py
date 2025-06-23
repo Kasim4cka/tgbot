@@ -18,7 +18,7 @@ DEFAULT_TELEGRAM_GROUP_LINK = 'https://t.me/driftnolegal' # <<< ОБЯЗАТЕЛ
 
 # --- ССЫЛКИ ДЛЯ ВАРИАНТА "Получить ссылку (Вариант 1)" ---
 # Эти ссылки будут отправлены, когда пользователь нажмет "Получить ссылку (Вариант 1)"
-TELEGRAM_GROUP_LINK_OPTION1 = 'https://t.me/your_group_link_option1' # <<< ССЫЛКА НА ГРУППУ ДЛЯ ВАРИАНТА 1
+TELEGRAM_GROUP_LINK_OPTION1 = 'https://t.me/+aHph7XFo4TcxMGRi' # <<< ССЫЛКА НА ГРУППУ ДЛЯ ВАРИАНТА 1
 DOCUMENT_LINK_OPTION1 = 'https://disk.yandex.ru/d/7vgFivzNrCvORQ' # <<< ССЫЛКА НА ДОКУМЕНТ ДЛЯ ВАРИАНТА 1
 
 # --- ССЫЛКИ ДЛЯ ВАРИАНТА "Получить ссылку (Вариант 2)" ---
